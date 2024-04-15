@@ -1,6 +1,6 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 2rem;
     transition: var(--transition);
 }
@@ -24,6 +24,13 @@
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
+}
+.experience__container>article h4 {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 1rem;
+    color: white;
 }
 
 .experience__content {

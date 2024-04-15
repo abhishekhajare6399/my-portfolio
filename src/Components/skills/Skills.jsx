@@ -3,26 +3,42 @@ import "./Skills.css"
 
 
 import Css from "../../assets/Logos/css.3.svg"
-import Express from "../../assets/Logos/express.svg"
+import C from "../../assets/Logos/C.png"
 import Git from "../../assets/Logos/git.svg"
 import Html from "../../assets/Logos/html.svg"
 import Javascript from "../../assets/Logos/javascript.svg"
 
-import Mongodb from "../../assets/Logos/mongodb.svg"
-import Mongoose from "../../assets/Logos/mongoose.png"
-import Node from "../../assets/Logos/nodejs.svg"
-import Postman from "../../assets/Logos/postman.png"
-import ReactIcon from "../../assets/Logos/react.svg"
+import Django from "../../assets/Logos/django.png"
+import PHP from "../../assets/Logos/PHP.jpeg"
+import DSA from "../../assets/Logos/DSA.png"
+import CP from "../../assets/Logos/C++.png"
+import OOPS from "../../assets/Logos/react.svg"
 
 
 import Bootstrap from "../../assets/Logos/bootstrap.svg"
-import Springboot from "../../assets/Logos/springboot.svg"
+import Python from "../../assets/Logos/python.jpeg"
 import Java from "../../assets/Logos/java.svg"
 import Sql from "../../assets/Logos/sql.png"
 
 const Skills = () => {
 
     const logos = [
+        {
+            logo: C,
+            text: "C"
+        },
+        {
+            logo: CP,
+            text: "C++"
+        },
+        {
+            logo: Python,
+            text: "Python"
+        },
+        {
+            logo: DSA,
+            text: "DSA"
+        },
         {
             logo: Html,
             text: "HTML 5"
@@ -40,42 +56,20 @@ const Skills = () => {
             text: "Java"
         },
         {
-            logo: Springboot,
-            text: "Spring Boot"
-        },
-
-        {
             logo: Javascript,
             text: "JavaScript"
-        },
-        {
-            logo: ReactIcon,
-            text: "React"
-        },
-
-        {
-            logo: Node,
-            text: "Node JS"
-        },
-        {
-            logo: Express,
-            text: "Express"
         },
         {
             logo: Sql,
             text: "SQL"
         },
         {
-            logo: Mongodb,
-            text: "MongoDB"
+            logo: PHP,
+            text: "PHP"
         },
         {
-            logo: Mongoose,
-            text: "Mongoose"
-        },
-        {
-            logo: Postman,
-            text: "Postman"
+            logo: Django,
+            text: "Django"
         },
         {
             logo: Git,

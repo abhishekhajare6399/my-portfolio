@@ -12,17 +12,16 @@ function Experience() {
 
         <div data-aos="zoom-in" data-aos-duration="1500" className="experience__frontend">
           <a href="https://www.riseretail.net/"><h3>Rise Retail & Payment Solutions Pvt Ltd</h3></a>
-          <small className='text-light'>Full Stack Development</small>
-
+          <h4>Full Stack Developer</h4>
           <div className="blur blur-e"></div>
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <small className='text-light'>I am a Full Stack Web Developer with robust problem-solving skills and proven experience in designing, developing and deploying software, websites & web-applications in a test-driven environment.</small>
-              </div>
-            </article>
-          </div>
+          <small className='text-light'>
+            • Implemented coupon redemption and appointment booking functionalities..<br></br>
+            • Enabled location-based search and favorite shop creation. Implemented real-time chat for staff-customer communication..<br></br>
+            • Developed Rise Retail Consumer Platform, listing registered shops for easy consumer access, akin to Justdial..<br></br>
+            • Additionally, each shop was provided with a personalized website exclusively dedicated to their own shop, enhancing their online presence.<br></br>
+            • Technologies Used: PHP, HTML, CSS, JavaScript, Bootstrap, MYSQL.
+          </small>
+              
         </div>
 
 
@@ -31,18 +30,16 @@ function Experience() {
 
 
         <div data-aos="zoom-in" data-aos-duration="1500" className="experience__backend">
-        <a href="https://www.riseretail.net/"><h3>Annapurna Food & Packaging</h3></a>
-          <small className='text-light'>Full Stack Development</small>
+        <a href="https://www.riseretail.net/"><h3>Annapurna Mess</h3></a>
+          <h4>Full Stack Developer(Freelancer)</h4>
           <div className="blur blur-e2"></div>
-
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <small className='text-light'>I am a Full Stack Web Developer with robust problem-solving skills and proven experience in designing, developing and deploying software, websites & web-applications in a test-driven environment.</small>
-              </div>
-            </article>
-          </div>
+          <small className='text-light'>
+            • Develop a web Platform for mess where he can manage his mess customer
+            and his records his attendance history a another platform for customer to
+            mark there attendance by scanning QR code.<br></br>
+            • Technologies Used: PHP, HTML, CSS, JavaScript, Bootstrap, MYSQL.<br></br>
+            • <a href="https://github.com/abhishekhajare6399/Annapurna-Mess">Github Link: abhishekhajare6399/Annapurna-Mess</a>
+          </small>
 
         </div>
 

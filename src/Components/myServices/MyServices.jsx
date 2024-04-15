@@ -47,13 +47,7 @@ function MyServices() {
 
                 {/* service 3 */}
 
-                <div data-aos="zoom-in" data-aos-duration="1500" className='services-containers'>
-                    <div className='hex'>
-                        <img style={{ width: "78px" }} src={Responsive} alt='Services' />
-                    </div>
-                    <h3 className='text'>Mobile-Friendly</h3>
-                    <p>A responsive designs makes your website accessible to all users, regardless of their devices.</p>
-                </div>
+             
 
                 {/* service 4 */}
 

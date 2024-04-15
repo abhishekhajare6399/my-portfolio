@@ -37,7 +37,9 @@ function Nav() {
       <BootstrapTooltip title="about" placement='top-start' arrow>
         <a href="#about" onClick={() => { setActiveNav("#about") }} className={activeNav === "#about" ? "active" : ""} ><AiOutlineUser /></a>
       </BootstrapTooltip>
-
+      <BootstrapTooltip title="education" placement='top-start' arrow >
+        <a href="#education" onClick={() => { setActiveNav("#education") }} className={activeNav === "#seducation" ? "active" : ""}><BiBookBookmark /></a>
+      </BootstrapTooltip>
       <BootstrapTooltip title="experience" placement='top-start' arrow >
         <a href="#experience" onClick={() => { setActiveNav("#experience") }} className={activeNav === "#experience" ? "active" : ""}><BiBookBookmark /></a>
       </BootstrapTooltip>

@@ -21,6 +21,10 @@ function Footer() {
         </li>
         <li>
           {" "}
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          {" "}
           <a href="#experience">Experience</a>
         </li>
         <li>
@@ -39,14 +43,14 @@ function Footer() {
 
       <div className="footer__socials">
         <a
-          href="https://github.com/virajhole"
+          href="https://github.com/abhishekhajare6399"
           target="_blank"
           rel="noopener noreferrer"
         >
           <BsGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/viraj-hole-96b00a13b"
+          href="https://www.linkedin.com/in/abhishek-hajare-64a7ba20a/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -60,7 +64,7 @@ function Footer() {
           <SiMedium />
         </a>
         <a
-          href="https://www.instagram.com/viraj_hole/"
+          href="https://www.instagram.com/abhishekshirishhajare18/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -70,7 +74,7 @@ function Footer() {
 
       <div className="footer__copyright">
         {/* <small>&copy; Design & Develope by Viraj Hole.</small> */}
-        <small>&copy; 2023 Viraj Hole | All rights reserved.</small>
+        <small>&copy; 2024 Abhishek Shirish Hajare | All rights reserved.</small>
       </div>
     </footer>
   );

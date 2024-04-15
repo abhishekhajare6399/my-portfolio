@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Portfolio.css"
-import IMG1 from "../../assets/youtubeclone.png"
+import IMG1 from "../../assets/Farmagri.png"
 import IMG2 from "../../assets/tictactoe.png"
-import IMG3 from "../../assets/gymwebapp.png"
-import IMG5 from "../../assets/portfolio.png"
+import IMG3 from "../../assets/medisaver.png"
+import IMG5 from "../../assets/ashp.png"
 import IMG4 from "../../assets/library.png"
-import IMG6 from "../../assets/hospital.png"
+import IMG6 from "../../assets/drowsiness.jpeg"
 import IMG7 from "../../assets/food.jpg"
 
 
@@ -15,53 +15,39 @@ function Portfolio() {
     {
       id: 1,
       image: IMG1,
-      title: "Farmagri",
-      github: "https://github.com/virajhole",
-      demo: "https://github.com/virajhole"
+      title: "Farmagri & Farmagro",
+      github: "https://github.com/abhishekhajare6399/Farmagri",
     },
     {
       id: 2,
-      image: IMG2,
-      title: "Foodies",
-      github: "https://github.com/virajhole/Tic-Tac-Toe",
-      demo: "https://tic-tac-toe-virajhole.vercel.app/"
+      image: IMG1,
+      title: "Foodies - Order Foood Now",
+      github: "https://github.com/abhishekhajare6399/Foodies",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Medisaver",
-      github: "https://github.com/virajhole/Gym-Fitness-Website",
-      demo: "https://gym-fitness-website-delta.vercel.app/"
+      title: "Medisaver - Book Appointment",
+      github: "https://github.com/abhishekhajare6399/Medisaver",
     },
     {
       id: 4,
       image: IMG4,
-      title: " Library-Management-System",
-      github: "https://github.com/virajhole/Library-Management-System",
-      demo: "https://github.com/virajhole/Library-Management-System"
+      title: "Voting Management System",
+      github: "https://github.com/abhishekhajare6399/voting-management-system",
     },
     {
       id: 6,
       image: IMG6,
-      title: "Hospital-App",
-      github: "https://github.com/virajhole/Hospital-App",
-      demo: "https://github.com/virajhole/Hospital-App"
+      title: "Drowsiness Detection System",
+      github: "https://github.com/abhishekhajare6399/Drowsiness-Detection",
     },
     {
       id: 5,
       image: IMG5,
       title: "Personal Portfolio Web App",
-      github: "https://github.com/virajhole/my-portfolio",
-      demo: "https://my-portfolio-virajhole.vercel.app/"
+      github: "https://github.com/abhishekhajare6399/my-portfolio",
     },
-    {
-      id: 6,
-      image: IMG7,
-      title: "Food-App",
-      github: "https://github.com/virajhole/Food-App",
-      demo: "https://github.com/virajhole/Food-App"
-    },
-
   ]
 
   return (
@@ -82,7 +68,6 @@ function Portfolio() {
               <h3>{ele.title}</h3>
               <div className="portfolio__item-cta">
                 <a href={ele.github} className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-                <a href={ele.demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer"> Live Demo </a>
               </div>
 
             </article>

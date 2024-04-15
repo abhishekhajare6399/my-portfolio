@@ -32,14 +32,14 @@ function Contact() {
               <MdOutlineEmail className='contact__option-icon' />
               <h4>Email</h4>
               <h5>abhishekhajare088@gmail.com</h5>
-              <a href="mailto:virajhole7774@gmail.com" target='_blank' rel="noopener noreferrer">Send a message</a>
+              <a href="mailto:abhishekhajare088@gmail.com" target='_blank' rel="noopener noreferrer">Send a message</a>
             </article>
 
             <article data-aos="zoom-in" data-aos-duration="1500" className="contact__option">
               <BsWhatsapp className='contact__option-icon' />
               <h4>WhatsApp</h4>
               <h5>+91 9421017990</h5>
-              <a href="https://api.whatsapp.com/send?phone=+917774829155" target='_blank' rel="noopener noreferrer">Send a message</a>
+              <a href="https://api.whatsapp.com/send?phone=+919421017990" target='_blank' rel="noopener noreferrer">Send a message</a>
             </article>
         </div>
 
